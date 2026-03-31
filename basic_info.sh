@@ -2,11 +2,17 @@
 
 echo "System Information"
 
-echo "Date:"
+echo "Date: "
 date
 
-echo "Uptime:"
+echo "Uptime: "
 uptime
 
-echo "Disk Usage:"
+echo "Disk Usage: "
 df -h
+
+echo "Hostname: "
+hostname
+
+echo "Kernel Version: "
+uname -r
