@@ -11,5 +11,5 @@ df -hT >> $LOGFILE
 echo -e "Memory Usage: \n" >> $LOGFILE
 free -h >> $LOGFILE
 
-printf "This concludes the System Checks and we've covered below topics: \nDate \nHostname \nUptime \nDisk Usage \nMemory Usage"
+printf "This concludes the System Checks and we've covered below topics: \nDate \nHostname \nUptime \nDisk Usage \nMemory Usage" >> $LOGFILE
 
